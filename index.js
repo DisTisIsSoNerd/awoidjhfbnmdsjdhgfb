@@ -13,7 +13,7 @@ const client = new Client({
 
 const fs = require('fs');
 const config = require('./config.json');
-require('dotenv').config() // remove this line if you are using replit
+const keep_alive = require('./keep_alive.js');
 
 client.commands = new Collection()
 client.aliases = new Collection()
