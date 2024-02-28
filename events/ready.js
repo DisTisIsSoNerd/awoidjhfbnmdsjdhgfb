@@ -7,7 +7,7 @@ client.on("ready", () => {
 		{ name: `${client.guilds.cache.size} Servers`, type: ActivityType.Listening },
 		{ name: `${client.channels.cache.size} Channels`, type: ActivityType.Playing },
 		{ name: `${client.users.cache.size} Users`, type: ActivityType.Watching },
-		{ name: `Developed by Ravenna Elysia`, type: ActivityType.Competing }
+		{ name: `Developed by Frosty Vista`, type: ActivityType.Competing }
 	];
 	const status = [
 		'online',
